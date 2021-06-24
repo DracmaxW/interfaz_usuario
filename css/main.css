@@ -1,0 +1,79 @@
+body {
+	background: #153535;
+	height: 768px;
+	width: 1024px;
+/*background-image: radial-gradient(circle at 50% 50%, #95ed94 0, #7fe79a 8.33%, #69de9e 16.67%, #51d2a0 25%, #38c39e 33.33%, #20b199 41.67%, #059c8f 50%, #008883 58.33%, #007678 66.67%, #02676e 75%, #0a5b65 83.33%, #11525e 91.67%, #154b59 100%);
+*/
+}
+.cuadro {
+	position: absolute;
+	height: 474px;
+	width: 336px;
+	left: 344px;
+	top: 149px;
+	border: 2px solid white;
+	border-radius: 35px;
+	background: #066;
+}
+.texto {
+	position: absolute;
+	width: 164px;
+	height: 25px;
+	left: 430px;
+	top: 250px;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 25px;
+	color: white;
+}
+input {
+	background: none;
+	border: 1px solid white;
+	box-sizing: border-box;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+}
+.usuario {
+	position: absolute;
+	width: 262px;
+	height: 48px;
+	left: 377px;
+	top: 307px;
+}
+.clave {
+	position: absolute;
+	width: 262px;
+	height: 48px;
+	left: 377px;
+	top: 395px;
+}
+.registro {
+	position: absolute;
+	width: 106px;
+	height: 21px;
+	left: 533px;
+	top: 464px;
+	font-family: Roboto Mono;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.enviar {
+	position: absolute;
+	width: 164px;
+	height: 50px;
+	left: 475px;
+	top: 508px;	
+	box-shadow: 0px 2px 0px white;
+	background: #066;
+	border: 1px solid white;
+	box-sizing: border-box;
+	border-radius: 25px;
+}
